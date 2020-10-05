@@ -4,6 +4,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 p {
     color: gray;
 }
@@ -47,7 +51,11 @@ header .row {
     left: calc(50% - 35px);
     height: 2.5px;
     width: 70px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+.sticky-top {
+    background-color: rgb(255, 255, 255);
 }
 
 nav::after {
@@ -109,8 +117,16 @@ section a:hover {
     color:  rgb(189, 82, 82) !important;
 }
 
-.photo {
+.photo1 {
     background-image: url(https://picsum.photos/id/0/600/500);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo2 {
+    background-image: url(https://picsum.photos/id/1/600/500);
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
